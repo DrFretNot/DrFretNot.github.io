@@ -55,6 +55,24 @@ h6 {
 	font-style: italic;
 }
 
+.subtle-link{
+	color: black;
+	text-decoration: none;
+}
+
+.subtle-link:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.wrap-link {
+	word-wrap: break-word;
+}
+
+.align-top{
+	vertical-align: top;
+	
+}
 /* 
 	Font matching:
 	Headings: Almendra
