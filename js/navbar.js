@@ -5,7 +5,7 @@ class NavbarComponent extends HTMLElement {
 	
 	connectedCallback() {
 		this.innerHTML = `
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light navbar-bg-custom">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="index.html">
 						<img alt="Brand" src="../images/favicon-64.png" class="img-fluid">
