@@ -65,7 +65,7 @@ var i = 0;
 for (var m in pictureDictionary) {
 	var codePiece =
 		"<div class = ' col-4 col-sm-3 col-lg-2'>"+
-		"<a class='thumbnail' href='#thumb'>"+
+		
 		"<img class=' img-fluid ' src ='../images/" +
 		pictureDictionary[m].address +
 		"' alt='"+
@@ -74,17 +74,7 @@ for (var m in pictureDictionary) {
 		i +
 		"'>"+
 		
-		"<span >"+
-"<img class=' img-fluid ' src ='../images/" +
-		pictureDictionary[m].address +
-		"' alt='"+
-		pictureDictionary[m].name +
-		"' id = image-" +
-		i + "-" + i +
-		"'>"+
-		"</span>"+
-		
-		"</a><div class= 'text-center'>"+
+	"<div class= 'text-center'>"+
 		pictureDictionary[m].name +
 		"</div></div>" ;
 	codeBlock += codePiece;
