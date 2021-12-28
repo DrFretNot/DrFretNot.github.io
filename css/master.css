@@ -103,6 +103,14 @@ h6 {
 	background-color: #b5b294;
 }
 
+.web-preview-sizing{
+	min-height: 320px;
+	min-width: 320px;
+	max-height: 500px;
+	max-width: 500px;
+	
+	
+}
 
 /* 
 	Font matching:
