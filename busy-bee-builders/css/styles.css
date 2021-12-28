@@ -1,0 +1,90 @@
+body{
+	font-family: 'Exo', sans-serif;
+	background-color: #94BB8B;
+	/*background-image: url('../images/Builder_Bee.gif');*/
+}
+
+h1{
+	font-family: 'Exo', sans-serif;
+	font-weight: bolder;
+	background-color: #FFFFC9;
+	text-align: center;
+	
+}
+/* font-family: 'Exo', sans-serif; */
+/*font-family: 'Playfair Display', serif;*/
+
+.logo-navbar-size{
+	max-height: 64px;
+}
+
+.phone-icon{
+	max-height: 32px;
+}
+.brand-font{
+	font-family: 'Exo', sans-serif;
+	font-weight: bolder;
+}
+
+
+.navbar-bg-custom {
+	/*background-image: url('/images/navbar-image.png');*/
+	background-image:  url('../images/navbar-image-rect.png');
+	/*background-image: url('images/navbar-image-rect.png');*/
+	/*@include img-fluid;*/
+	/*background-color: #E9E4D9;*/
+}
+
+
+.text-box-styling{
+	
+	background-color: #FFFFC9;
+	/*padding: 5px;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.vertical-spacer-10{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+.image-rounded{
+	
+	border-radius:25px;
+	max-height: 600px;
+	
+}
+
+.image-circle{
+	
+	border-radius:300px;
+	max-height: 600px;
+	
+}
+
+
+.subtle-link{
+	color: #000000;
+	text-decoration: none;
+}
+
+.subtle-link:hover {
+	color: #F2D249;
+	text-decoration: underline;
+}
+
+.phone-link{
+	color: #000000;
+	background-color: #F2D249;
+	text-decoration: none;
+	
+	
+}
+
+.phone-link:hover {
+	color: #F2D249;
+	background-color: #000000;
+	text-decoration: underline;
+}
