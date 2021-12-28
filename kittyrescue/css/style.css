@@ -1,0 +1,39 @@
+body{
+	font-family: 'Cabin', sans-serif;
+	
+}
+
+h1{
+	font-family: 'Cinzel', serif;
+	text-decoration: underline;
+}
+h2{
+	font-family: 'Cinzel', serif;
+	
+}
+h3{
+	
+	font-family: 'Cinzel', serif;
+}
+h4{
+	
+	font-family: 'Cinzel', serif;
+}
+h5{
+	font-family: 'Cinzel', serif;
+	
+}
+h6{
+	font-family: 'Cinzel', serif;
+	
+}
+
+.text-bolder{
+	font-weight: bolder;
+}
+
+
+
+/*font-family: 'Cabin', sans-serif;
+	font-family: 'Cinzel', serif;
+font-family: 'Island Moments', cursive;*/
