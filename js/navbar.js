@@ -16,16 +16,16 @@ class NavbarComponent extends HTMLElement {
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="/resume.html">Resume</a>
+								<a class="nav-link active" href="resume.html">Resume</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="/artportfolio.html">Art Portfolio</a>
+								<a class="nav-link active" href="artportfolio.html">Art Portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link disabled" href="#" aria-disabled="true">Implementation Portfolio</a>
+								<a class="nav-link active" href="casestudies.html" >Case Studies</a>
 							</li>
 							
 						</ul>
