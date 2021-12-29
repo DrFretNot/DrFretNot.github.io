@@ -1,6 +1,6 @@
 body{
 	font-family: 'Cabin', sans-serif;
-	background-color: #b75b80;
+	background-color: /*#b75b80;*/ #c2cdda;
 }
 
 h1{
@@ -32,6 +32,10 @@ h6{
 	font-weight: bolder;
 }
 
+.image-rounded{
+	
+	  border-radius: 10%;
+}
 
 
 /*font-family: 'Cabin', sans-serif;

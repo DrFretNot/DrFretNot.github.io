@@ -37,9 +37,9 @@
 		<script src="js/artgallery.js" type="text/javascript" defer></script>
 		
 	</head>
-	
-	<header>
-	<nav class="navbar navbar-expand-lg navbar-light navbar-bg-custom">
+	<body>	
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light navbar-bg-custom">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="index.html">
 						<img alt="Brand" src="images/cat.gif" class="img-fluid">
@@ -67,10 +67,10 @@
 					</div>
 				</div>
 			</nav>  
-
-	</header>
-	
-	<body>
+			
+		</header>
+		
+		
 		<div class = "container">
 			<div class = "row">
 				<div class = "col-12 text-center">
@@ -85,38 +85,53 @@
 					<!-- 8.	Next Steps and Learning -->
 					
 					<h1><!-- 1.	Title of the Case Study -->
-						Kitty Rescue - A Game Made Using Godot
+						Kitty Rescue - A Demo Game Made Using Godot
 					</h1>
 				</div>				
 				<div class="col-md-1"></div>
 				<!-- 2.	Introduction/Overview -->
 				<div class = "col-12 col-md-10">
 					<h3>Overview</h3>
-					Kitty Rescue is a game demo that I created while learning how to use Godot after making tutorial projects. In it, you literally go herd cats onto a specified area. Movement is done with the arrow keys or WASD. Later on, C is the interact key. The cats will follow you, but only if you stay within a certain range of them, otherwise the will wander off. You must get all the cats to the yellow circle to win the level. There are two tutorial levels, one where you just get the cats, and a second where you navigate around a maze like course. The third level adds a little more, you are told by your aunt to rescue the cats from an overgrown hedge maze and you are given an axe to cut down certain overgrown shrubs. 
-					Art assets are a combination of free, owned, and custom created or modified assets.
+					<p>
+					Kitty Rescue is a game demo that I created for self-practice while learning Godot (an open-source game engine). I created this project in 2021. The original idea of the game was to create a pixel art game where you rescued creatures from different environments. To limit the scope, cats were chosen as the creature to rescue due to the “cat up a tree” trope and the fact that they are considered cute. I created some of the graphic assets, while other assets are from free assets or assets that I own the license to use for personal or commercial purposes. </p>
 				</div>	
 				<div class="col-md-1"></div>
 				<div class="col-md-1"></div>
-				<!-- 3.	UX Design Process -->
+				<!-- 3.	UX Design Process --><!-- 4.	User Research -->
 				<div class = "col-12 col-md-10">
-					<h3>UX Design Process</h3>
-					<p></p>
+					<h3>Research and UX Design Process</h3>
+					
+					I did some light research on what types of games are at the top of mobile game lists and what do well on Steam (a digital store for video games) . For non-realistic graphic games, it often either needs to have cute characters or be a deep game that draws people into the story. Some, like Stardew Valley, are considered to have both. Since I was making this as a demo project, I opted to draw on the cute graphics aspect. 
+					
+					As previously mentioned, the objective was to make a game demo where the player rescues cats. One early-stage idea was to rescue turtles. I personally like turtles, but cats were determined to be cuter by an informal poll among friends and family. 
+					<div class = "row ">
+						<div class = "col-xl-2"></div>
+						<div class="  col-6 col-md-6 col-xl-4">
+							<img class=" img-fluid image-rounded" src="images/turtle-sketch.png" alt="turtle">
+							<div class="text-center">
+							Turtle Sketch.</div>
+						</div>
+						<div class="  col-6 col-md-6 col-xl-4">
+							<img class=" img-fluid image-rounded" src="images/cat-sketch.png" alt="cat">
+							<div class="text-center">
+							Cat Sketch.</div>
+						</div>
+					</div><!-- div .row -->
+					Users want intuitive controls, and for the UI to give information without distracting from game play. As this was a personal project demo, my user tests were limited to family members and was done close to contextual interview style and A/B Testing.
+					
+					
+					
+					
 				</div>
 				<div class="col-md-1"></div>
 				
-				<div class="col-md-1"></div>
 				
-				<!-- 4.	User Research -->
-				<div class = "col-12 col-md-10">
-					<h3>User Research</h3>
-					<p></p>
-				</div>
-				<div class="col-md-1"></div>
 				
 				<div class="col-md-1"></div>
 				<!-- 5.	Define the Problem -->
 				<div class = "col-12 col-md-10">
-					<h3>Define the Problem</h3>
+					<h3>The Problem</h3>
+					<p class = "text-bolder">How do we create a cute game to rescue animals where the user is  drawn in with minimal information being dumped on them?</p>
 					<p></p>
 				</div>
 				<div class="col-md-1"></div>
@@ -124,16 +139,37 @@
 				<div class="col-md-1"></div>
 				<!-- 6.	Ideation Steps to come up with solution -->
 				<div class = "col-12 col-md-10">
-					<h3>Ideation Steps to come up with solution</h3>
-					<p></p>
-				</div>
-				<div class="col-md-1"></div>
-				
-				<div class="col-md-1"></div>
-				<!-- 7.	Test Solution and Iteration -->
-				<div class = "col-12 col-md-10">
-					<h3>Test Solution and Iteration</h3>
-					<p></p>
+					<h3>Ideation Steps, Solution, Iteration</h3>
+					
+					I sketched out different early designs using Procreate and GoodNotes on the iPad. I needed to decide what style of game it should be. I narrowed the choice down to side-scroller/platformer style (think Super Mario) and top down RPG style (think older Pokemon Games). I opted for RPG Top down style, as it would seem less strict on pacing than a platformer.  
+					<div class = "row ">
+					<div class="col-md-3 col-xl-4"></div>
+						<div class="  col-12 col-md-6 col-xl-4">
+							<img class=" img-fluid " src="images/early-stage-note.jpg" alt="note page">
+							<div class="text-center">
+							Early stage note on game style.</div>
+						</div></div><!-- div .row -->
+						I ultimately went with a character design (Sam) from <a href ="https://pop-shop-packs.itch.io/">Pop Shop Packs</a>, and then modified the colors for practice and to not clash with the grass and nature assets. After my initial sketches of cats in the design idea phase, I opted to use the cat assets from them to save work. I put the different assets I had next to each other using Aseprite and refined my color palette into a specific mood (peaceful, happy) without oversaturating. 
+						<div class = "row ">
+						<div class="col-md-3 col-xl-4"></div>
+							<div class="  col-12 col-md-6 col-xl-4">
+								<img class=" img-fluid " src="images/Standing_FourWays-sheet-200.png" alt="character">
+								<div class="text-center">
+								Character model sample.</div>
+							</div></div><!-- div .row -->
+							After this step I started on the game prototype. One early prototype had the cat disappear when it got in range of the character with the explanation that it was rescued. This was deemed too jarring when I had a few people try out the prototype, so I went with the cat herding mechanic instead. This slowed the gameplay for collecting the cats but was seen as a better mechanic; the cats will wander off if you get too far from them and also gives them the appearance of rubbing on the characters legs while walking. These changes added to the cuteness of the game, according to follow up tests when comparing the versions. I simplified the UI to  mostly just images of a cat being colored in to let a player know when they had a cat following them or not since this game did not need any kind of health indicator.
+							
+							<div class = "row"><div class="col-md-3 col-xl-4"></div>
+							<div class="  col-6 col-xl-4">
+								<img class=" img-fluid " src="images/early-stage-logo.png" alt="early logo.">
+								<div class="text-center">
+								Earlier version of logo</div>
+							</div>
+							</div>
+							
+							
+							Below you can see the end results of the demo. The player gets the load/splash screen then chooses what to do through the mouse on the menu. The in-game controls were limited to the four directions and then one key for interaction. Based off of past experience, the C key was chosen as the interaction key, while both the arrows and WASD could be used to control the character. A cat will follow a player if the player gets in range, and the goal is to lead all of the kitties on the level to the circle, portrayed as a giant yellow rug like object. 
+							
 				</div>
 				<div class="col-md-1"></div>
 				
@@ -148,7 +184,7 @@
 				
 				
 				
-				<div class = "col-12 text-center"><h2> Images</h2></div>		
+				<div class = "col-12 text-center"><h4> Final Images</h4></div>		
 				<div class=" col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/splash_screen.png" alt="screenshot">
 					<div class="text-center">
@@ -159,33 +195,15 @@
 					<div class="text-center">
 					Menu Screen</div>
 				</div>
-				<div class=" col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/menu_02.png" alt="screenshot">
-					<div class="text-center">
-					Menu Screen</div>
-				</div>
 				
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/menu_04.png" alt="screenshot">
-					<div class="text-center">
-					Menu Screen</div>
-				</div>
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_one_02.png" alt="screenshot">
 					<div class="text-center">
 					Level 1 Tutorial Screen</div>
 				</div>
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/level_one_01.png" alt="screenshot">
-					<div class="text-center">
-					Level 1 Tutorial Screen</div>
-				</div>
 				
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/level_two_01.png" alt="screenshot">
-					<div class="text-center">
-					Level 2 Tutorial Screen</div>
-				</div>
+				
+				
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_two_02.png" alt="screenshot">
 					<div class="text-center">
@@ -201,11 +219,7 @@
 					<div class="text-center">
 					Level 3 Screen</div>
 				</div>
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/level_three_02.png" alt="screenshot">
-					<div class="text-center">
-					Level 3 Screen</div>
-				</div>
+				
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_three_03.png" alt="screenshot">
 					<div class="text-center">
@@ -216,21 +230,13 @@
 					<div class="text-center">
 					Level 3 Screen</div>
 				</div>
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/level_three_05.png" alt="screenshot">
-					<div class="text-center">
-					Level 3 Screen</div>
-				</div>
+				
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_three_06.png" alt="screenshot">
 					<div class="text-center">
 					Level 3 Screen</div>
 				</div>
-				<div class="  col-12 col-md-6 col-xl-4">
-					<img class=" img-fluid " src="images/level_three_07.png" alt="screenshot">
-					<div class="text-center">
-					Level 3 Screen</div>
-				</div>
+				
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_three_08.png" alt="screenshot">
 					<div class="text-center">
@@ -239,42 +245,25 @@
 				<div class="  col-12 col-md-6 col-xl-4">
 					<img class=" img-fluid " src="images/level_complete.png" alt="screenshot">
 					<div class="text-center">
-					Level 3 Screen</div>
+					Level Complete Screen</div>
+				</div>
+				<div class="  col-12 col-md-6 col-xl-4">
+					<img class=" img-fluid " src="images/menu_03.png" alt="screenshot">
+					<div class="text-center">
+					Level Selection Screen</div>
 				</div>
 				
+			</div>
+			<br>
+			<div class="row">
 				
 				
-				
-				<div class = "col-12 text-center"><h2> Video Demonstrations</h2></div>
-				<div class="col-12 col-lg-8 text-center">
-					<h4>Kitty Rescue Menu
-					</h4>
-					
-					
-					
-					<video controls="controls" src="videos/KittyRescue_Menu.mp4">
-						Your browser does not support the HTML5 Video element.
-					</video>
-					
-					
-					
-				</div>
-				
-				
-				
-				
-				
-				<div class="col-12 col-lg-8 text-center">
-					<h4>Tutorial Level 1 Snippet
-					</h4>
-					<video controls="controls" src="videos/KittyRescue_TutorialSnippet.mp4">
-						Your browser does not support the HTML5 Video element.
-					</video>
-				</div>
+				<div class = "col-12 text-center"><h2> Video Demonstration</h2></div>
+				<div class = "col-lg-2"></div>
 				<div class="col-12 col-lg-8 text-center">
 					<h4>Full Playthrough
 					</h4>
-					<video controls="controls" src="videos/KittyRescue_FullPlaythrough.mp4" class="video-fluid">
+					<video controls="controls" src="videos/KittyRescue_FullPlaythrough.mp4" class="">
 						Your browser does not support the HTML5 Video element.
 					</video>
 				</div>
@@ -283,23 +272,58 @@
 			
 			
 			
-			<div>
+			<div class="">
 				
 				<!-- 8.	Next Steps and Learning -->
 				<h3>Next Steps and Learning</h3>
-				<p></p>
 				
+				<p>If I were to further develop this demo into a full-fledged game, I have a list of improvements and features I would add:</p>
+				<ul>
+					<li>
+						Give the game more story and create more levels.
+					</li>
+					<li>
+						Some unused elements included fire hydrants that had to be cut off with a wrench and doors that needed keys to open, so I would add levels where cats needed to be rescued from city environments.
+					</li>
+					<li>
+						Further refine the art assets.
+					</li>
+					
+					<li>
+						Implement save files.
+					</li>
+					<li>
+						Add back in the semi-transparent directional pad in the bottom left of the screen and aim the game at a mobile market for release.
+					</li>
+					
+				</ul>
+				
+				<p>I learned much about game and product design from this demo.</p>
+				<ul>
+									<li>
+						I was able to observe a user playing the game and how they interacted with it. This taught me more about the practical side of directed UIs where options are limited.
+					</li>
+					<li>
+						I fine-tuned my practical Godot knowledge.
+					</li>
+					<li>
+						While creating this demo I was able to see what elements could be modularized. For example, the bushes that can be chopped and the cats both use the same underlying element to see if the player is within their range.
+					</li>
+					<li>
+						I greatly appreciated when I was able to get user feedback to adjust my designs and art assets.
+					</li>					
+				</ul>
 				
 			</div>
 		</div><!-- div .container -->
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<footer>
+			<hr>
+			<h6 class = "text-bolder text-center"><a href="../casestudies.html">Back to Case Studies</a></h6>
+			
+		</footer>		
+		</body>
 		
-	</body>
-	
-	<footer>
-		<hr>
-				<h6 class = "text-bolder text-center"><a href="../casestudies.html">Back to Case Studies</a></h6>
 		
-		</footer>
 </html>

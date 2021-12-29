@@ -88,3 +88,8 @@ h1{
 	background-color: #000000;
 	text-decoration: underline;
 }
+.bordered {
+  border-style: solid;
+  border-color: #000000;
+}
+
