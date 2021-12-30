@@ -109,9 +109,12 @@ h6 {
 	max-height: 500px;
 	max-width: 500px;
 	
-	
 }
 
+
+.logo-sizing500{
+	max-width: 500px;
+}
 /* 
 	Font matching:
 	Headings: Almendra
