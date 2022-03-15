@@ -25,8 +25,11 @@ class NavbarComponent extends HTMLElement {
 								<a class="nav-link active" href="artportfolio.html">Art Portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="casestudies.html" >Case Studies</a>
+								<a class="nav-link active" href="casestudies.html" >Design Case Studies</a>
 							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link active" href="frontend/frontend.html">Front End</a></li>
 							
 						</ul>
 						
