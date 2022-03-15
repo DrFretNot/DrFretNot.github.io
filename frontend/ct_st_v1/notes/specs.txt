@@ -1,0 +1,30 @@
+Front End Developer - Follow-up v1.0 (SHORT)
+Description:
+
+60 minute PSD to HTML/CSS Conversion
+
+Please note that we check all tests for plagiarism or copying. If you use any work product from any outside resource, please be sure to mention that. If we find any copied outside resource that is not cited, you will be disqualified immediately.
+
+ I understand I will be disqualified for plagiarism or unreferenced copying.
+
+If you have a question about the test, please contact careers@coalitiontechnologies.com. Should you encounter any errors with this skills test, please send a screenshot and the URL and a description of the error to support@testedrecruits.com
+
+Note: the video or the upload question can take some time to upload. If the upload appears unsuccessful, please reload the page - your answers should be saved, but you will have to enter your minimum acceptable salary and location again. If you are still unable to upload the video file, please upload a document with a link to your video instead.
+
+1.
+Below, you will find instructions for our front end development skills test. You will follow a link to upload this zip file of your code into our system. Please try to spend 60 minutes or less getting this to the best point you can in that time.
+
+Please complete a pixel perfect PSD to HTML / CSS conversion of this file found in the link below:
+
+Right click the following link and open in a new tab. PSD to HTML/CSS Skills Test
+
+Save your code in a zip file
+
+WHEN YOU HAVE FINISHED YOUR HTML/CSS WORK, ZIP IT UP AND UPLOAD IT USING THE FORM
+
+FileNo file chosen
+TIP: Using a zip file may be the most efficient way to upload your test submission.
+
+If your file is large or your internet connection is slow, uploading this file can take several minutes (or even longer). Please be patient. Files must be no larger than 250 MB
+
+Note: the video or the upload question can take some time to upload. If the upload appears unsuccessful, please reload the page - your answers should be saved, but you will have to enter your minimum acceptable salary and location again. If you are still unable to upload the video file, please upload a document with a link to your video instead.

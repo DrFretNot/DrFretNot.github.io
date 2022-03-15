@@ -1,0 +1,5 @@
+The Numbers at the top left of the page doesn't match the phone number given in the REACH US section. I would verify which or if they are supposed to be different) is correct. 
+
+The last assessment (Mountain Webpage) also had a similar mismatch where the 02 section text was different. 
+
+Also, for a test assignment, it would be good to not use Myriad Pro as a font, as that's not an assumed default for a user (Adobe font) and isn't available as a free Google Font for linking. I used Maven Pro as a substitute for these reasons. This may be a part of the test, but in case it wasn't, I thought I should make you aware.

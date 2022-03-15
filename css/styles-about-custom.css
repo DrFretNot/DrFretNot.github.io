@@ -283,6 +283,17 @@
 	.responsive-font-subheading{
 		font-size:2.8vw;
 	}
+	
+	
+.parchment-image-background{
+	background-image: url("../images/parchment-bg.png");
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-size: 100% 100%;
+	padding: 1vw;
+	
+	
+	}
 }
 
 
@@ -506,6 +517,14 @@
 		
 	}
 	
+	.parchment-image-background{
+	background-color: #8c8c76; /*parchment-bg main color*/
+
+
+	padding: 1vw;
+	
+	
+	}
 }
 
 
@@ -733,6 +752,14 @@
 		
 	}
 	
+	.parchment-image-background{
+	background-color: #8c8c76; /*parchment-bg main color*/
+
+
+	padding: 1vw;
+	
+	
+	}
 }
 
 
@@ -772,3 +799,5 @@
 .top-float-position{
 	z-index: 999;
 }	
+
+

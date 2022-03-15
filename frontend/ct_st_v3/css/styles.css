@@ -1,0 +1,321 @@
+/* Trent Ford */
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	
+}
+
+/*  Fonts *******************************************
+	Lato
+	Bebas Neue
+	Oswald
+****************************************************/
+.font-lato{
+	font-family: 'Lato', sans-serif;
+}
+.font-bebas{
+	font-family: 'Bebas Neue', cursive;
+}
+.font-oswald{
+	font-family: 'Oswald', sans-serif;
+}
+
+.font-size-12{
+	font-size: 12px;
+}
+
+.responsive-font-big1{
+	font-size:9.45vw;
+}
+
+.responsive-font-big2{
+	font-size:10.8vw;
+}
+
+@media (min-width: 0px) and (max-width: 949px) {
+	.responsive-font-0{
+		font-size:1.15vw;
+	}
+}
+
+@media screen and (min-width: 950px) {
+	.responsive-font-0{
+		font-size:.85vw;
+	}
+	
+}
+
+.responsive-font-1{
+	font-size:1.75vw;
+}
+.responsive-font-2{
+	font-size:2vw;
+}
+
+/*	Color Scheme ****************************************
+	Dark-Liver-Gray:	#4d4d4d
+	Gradient-Gray-Blue:	#414F6B, #2B3547
+	Outer Space
+	Number-color-01:	#6B7C97
+	Headings:			#414F6B
+	Light Blue:			#63769D
+	Number-color-02:	#A0A7B5
+	Gray-for-buttons:	#B0B4BE
+*********************************************************/
+
+.color-dark-liver{
+	color: #4D4D4D;
+}
+
+.color-number-blue{
+	color: #6b7c97;
+}
+
+.color-number-two{
+	color: #A0A7B5;
+}
+
+/* Medium Blue - Police Blue*/
+.color-police-blue{
+	color: #414f6b;
+}
+
+.background-color-police-blue{
+	background-color: #414f6b;
+}
+
+.color-dark-blue-gray{
+	color: #63769d;
+}
+
+.background-color-dark-blue-gray{
+	background-color: #63769d;
+}
+
+.color-gradient-gray-blue{
+	background-image: linear-gradient(#414f6b, #2B3547);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* Specific Text Formatting **************************/
+.menu-decoration{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration-line: underline;	
+}
+
+.menu-decoration-2{
+	text-transform: uppercase;
+	color:	 #414f6b;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+.tighter-lines{
+	line-height: .8;
+}
+
+.padding-edge{
+	padding: 1vw;
+}
+
+/* Border and Picture Formatting ********************/
+.border-circle{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bcc3c6;
+	border-radius: 25px;
+}
+
+.max-max-width{
+	width: 100vw;
+	max-width: 100vw;
+}
+
+/* Buttons ******************************************/
+
+.btn:hover{
+	background-color: #6f7f9a;
+}
+
+#btnm1{
+	color: #6f7f9a;
+}
+
+#btnm2{
+	color: #6f7f9a
+}
+
+#btnm1:hover{
+	color: #414f6b;
+	text-decoration-line: underline;
+}
+
+#btnm2:hover{
+	color: #414f6b;
+	text-decoration-line: underline;
+}
+
+/* Positioning ************************************/
+
+.layer-one{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+.layer-one-plus{
+	position:absolute;
+	top: 15vw;
+	left: 25%;
+	z-index: 2;
+}
+
+.layer-overlay-image{
+	position:absolute;
+	top: 0;
+	left: 0px;
+	z-index: 3;
+}
+
+.bottom-logo-adjustments{
+	opacity: 0.29;
+	padding: 1vw;
+}
+
+.top-float-position{
+	z-index: 999;
+}
+
+.bar-placement{
+	position: absolute;
+	top: 51vw;
+	height: 5vw;
+	max-height: 5vw;
+	width: 100%;
+	z-index: 5;
+}
+
+#carousel-mountain-pictures{
+	position: absolute;
+	top: 56vw;
+	z-index: 0;
+}
+
+#zero-one{
+	position: absolute;
+	top: 60vw;
+	left: 25vw;
+	z-index: 1;
+}
+
+#history-head{
+	position: absolute;
+	top: 67vw;
+	left: 34vw;
+	z-index: 1;
+}
+
+#history-text{
+	position: absolute;
+	top: 74vw;
+	left: 29vw;
+	width: 45vw;
+	z-index: 1;
+}
+
+#blue-bar{
+	position: absolute;
+	top: 100.2vw;
+	width: 100vw;
+	opacity:.9;
+	height: 12vw;
+	z-index: 1;
+}
+
+#bar-white-02{
+	position: absolute;
+	top: 112.2vw;
+	width: 100vw;
+	height: 12vw;
+}
+
+#zero-two{
+	position: absolute;
+	top: 112.2vw;
+	left: 28vw;	
+	height: 12vw;
+}
+
+#climb-head{
+	position: absolute;
+	top: 119.8vw;
+	left: 38.5vw;
+	height: 12vw;
+}
+
+#climb-text{
+	position: absolute;
+	top: 117.8vw;
+	left: 44.5vw;
+	width: 35vw;
+	height: 12vw;
+}
+
+#mountain-buttons{
+	position: absolute;
+	top: 125vw;
+	z-index: 3;
+	width: 100vw;
+	height: 4vw;
+	background-color: #414f6b;
+}
+
+#mountain-picture-one{
+	position: absolute;
+	top: 129vw;
+	z-index: 2;
+}
+
+#mountain-picture-two{
+	position: absolute;
+	top: 129vw;
+	z-index: 1;	
+}
+
+#schedule-block{
+	position: absolute;
+	left: 25vw;
+	top: 135vw;
+	z-index: 5;
+	background-color: #ffffff;
+	opacity: .7;
+	width: 30vw;
+	height: 18vw;
+}
+
+#schedule-head{
+	position: relative;
+	top: 1vw;
+	left: 1vw;
+}
+
+#schedule-text{
+	position: relative;
+	top: 2vw;
+	left: -1vw;
+}
+
+#bottombar{
+	position: absolute;
+	width: 100vw;
+	top: 162.9vw;
+	z-index: 10;	
+}
