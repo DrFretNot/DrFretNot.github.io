@@ -28,7 +28,7 @@ var pictureDictionary = {
 	image17: { address: "heraldry_shield.png", name: "Heraldry Shield" },
 	
 	image11: {address: "stained_glass_bat.png", name: "Stained Glass with Bat Symbol"},
-	image12: {address: "stained_glass_turtle.png", name: "Stainted Glass with Turtle Shell Pattern"},
+	image12: {address: "stained_glass_turtle.png", name: "Stained Glass with Turtle Shell Pattern"},
 	image13: {address: "abstract_professional_hats_bg.png", name: "Abstract Professional Hats"},
 	
 	image14: { address: "deco_pokeball.png", name: "Doodle/Deco style Pokeball" }
