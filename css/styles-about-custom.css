@@ -1,85 +1,58 @@
 /*Trent N. Ford */
 
-.body-bg{
+.body-bg {
 	background-color: #B5B294;
 	background-image: url("../images/rice-paper-v2.png");
-	
-	
+
 }
 
-
-
 /* Fonts **********************************/
-.font-exo{
+.font-exo {
 	font-family: 'Exo', sans-serif;
 }
 
-.font-teko{
+.font-teko {
 	font-family: 'Teko', sans-serif;
 }
 
-.font-ubuntu{
+.font-ubuntu {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.font-ubuntu-cond{
+.font-ubuntu-cond {
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.font-ubuntu-mono{
+.font-ubuntu-mono {
 	font-family: 'Ubuntu Mono', monospace;
 }
 
-
 /**font sizes **/
 
-
-
-
-
-
-
-.responsive-font-stat{
+.responsive-font-stat {
 	font-size: 2.8vw;
 }
 
-
-
-
-
-
-.menu-decoration{
+.menu-decoration {
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 2vw;
 	font-weight: bold;
-	text-decoration-line: underline;	
+	text-decoration-line: underline;
 }
-
-
-
-
 
 /** Color ****************************/
 
-.green-bg{
+.green-bg {
 	background-color: #254D3D;
-	
-	
+
 }
 
-
-
-
-
-
 /* Positioning *********/
-@media (min-width: 768px)  {
-	
-	
-	
-	.parchment-bg-position{
+@media (min-width: 768px) {
+
+	.parchment-bg-position {
 		position: relative;
 		top: 0vw;
 		left: 0vw;
@@ -87,227 +60,181 @@
 		width: 100vw;
 		height: auto;
 	}
-	
-	
-	
-	.top-info-position{
-		
+
+	.top-info-position {
+
 		position: relative;
 		top: -70vw;
 		left: 0vw;
 		z-index: 1;
-		
 		height: auto;
-		
 	}
-	
-	.banner-position{
+
+	.banner-position {
 		position: relative;
 		top: -19vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.banner-size{
+
+	.banner-size {
 		height: auto;
 		width: 98vw;
 	}
-	.personal-statement-position{
-		
+
+	.personal-statement-position {
 		position: relative;
 		top: -67vw;
 		left: 20vw;
 		z-index: 2;
 		width: 60vw;
-		
 	}
-	
-	.number-heptagon-bump{
+
+	.number-heptagon-bump {
 		position: relative;
 		top: -7vw;
 	}
-	
-	
-	.stat-position-bump{
+
+	.stat-position-bump {
 		position: relative;
 		top: -7vw;
 	}
-	.stat-position-bump-02{
+
+	.stat-position-bump-02 {
 		position: relative;
 		top: -14vw;
 	}
-	
-	.stat-label-bump{
+
+	.stat-label-bump {
 		position: relative;
 		top: -6vw;
 	}
-	
-	
-	
-	
-	.number-exp-achievements-position{
+
+	.number-exp-achievements-position {
 		position: relative;
 		top: -58vw;
-		
-		
-		
 	}
-	
-	
-	
-	
-	.lfg-passions-projects-img-position{
+
+	.lfg-passions-projects-img-position {
 		position: relative;
 		top: -79vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position{
+
+	.scroll-text-position {
 		position: relative;
 		top: -34vw;
-		
 		z-index: 2;
-		
-		
 	}
-	.scroll-text-position-01{
+
+	.scroll-text-position-01 {
 		position: relative;
 		top: -35vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position-02{
+
+	.scroll-text-position-02 {
 		position: relative;
 		top: -37vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position-03{
+
+	.scroll-text-position-03 {
 		position: relative;
 		top: -33vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position-04{
+
+	.scroll-text-position-04 {
 		position: relative;
 		top: -22vw;
-		
 		z-index: 2;
-		
-		
 	}
-	.keyboard-position{
+
+	.keyboard-position {
 		position: relative;
 		top: -19vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	
-	.image-row-position{
+
+	.image-row-position {
 		position: absolute;
 		top: 215vw;
 	}
-	
-	
-	.spot-1-shift{
+
+	.spot-1-shift {
 		position: relative;
 		top: -30vw;
 	}
-	.spot-2-shift{
+
+	.spot-2-shift {
 		position: relative;
 		top: -15vw;
 	}
-	
-	.contact-position{
-		/*do nothing*/
-		
+
+	.contact-position {
+		/*do nothing, need in other media sizes*/
 	}
-	
-	.responsive-font-number{
+
+	.responsive-font-number {
 		font-size: 4vw;
 	}
-	
-	.responsive-font-body{
+
+	.responsive-font-body {
 		font-size: 1.5vw;
 	}
-	
-	
-	.responsive-font-statement{
+
+	.responsive-font-statement {
 		font-size: 1.5vw;
 	}
-	
-	
-	.bio-padding{
+
+	.bio-padding {
 		padding-right: 2vw;
 	}
-	
-	.custom-scroll-size{
-		
+
+	.custom-scroll-size {
 		width: 100%;
 		height: 10%;
 	}
-	.custom-scroll-size-02{
-		
+
+	.custom-scroll-size-02 {
 		width: 100%;
 		height: 160%;
 	}
-	.custom-scroll-size-03{
-		
+
+	.custom-scroll-size-03 {
 		width: 100%;
 		height: 115%;
 	}
-	
-	
-	.responsive-font-name{
-		font-size:6vw;
+
+	.responsive-font-name {
+		font-size: 6vw;
 	}
-	
-	.responsive-font-title{
-		font-size:3.3vw;
+
+	.responsive-font-title {
+		font-size: 3.3vw;
 	}
-	
-	.responsive-font-heading{
-		font-size:3vw;
+
+	.responsive-font-heading {
+		font-size: 3vw;
 	}
-	.responsive-font-subheading{
-		font-size:2.8vw;
+
+	.responsive-font-subheading {
+		font-size: 2.8vw;
 	}
-	
-	
-.parchment-image-background{
-	background-image: url("../images/parchment-bg.png");
-	background-repeat: no-repeat;
-	/*background-size: contain;*/
-	background-size: 100% 100%;
-	padding: 1vw;
-	
-	
+
+	.parchment-image-background {
+		background-image: url("../images/parchment-bg.png");
+		background-repeat: no-repeat;
+		/*background-size: contain;*/
+		background-size: 100% 100%;
+		padding: 1vw;
 	}
 }
 
-
-
 /* Positioning *********/
-@media (min-width: 645px) and (max-width: 767px)  {
-	
-	.parchment-bg-position{
+@media (min-width: 645px) and (max-width: 767px) {
+
+	.parchment-bg-position {
 		position: relative;
 		top: 0vw;
 		left: 0vw;
@@ -315,237 +242,184 @@
 		width: 97vw;
 		height: 75vw;
 	}
-	
-	
-	
-	.banner-position{
+
+	.banner-position {
 		position: relative;
 		top: -20vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.banner-size{
+
+	.banner-size {
 		height: 46vw;
 		width: 98vw;
 	}
-	
-	.top-info-position{
-		
+
+	.top-info-position {
+
 		position: relative;
 		top: -115vw;
 		left: 0vw;
 		z-index: 1;
-		
 		height: auto;
-		
 	}
-	
-	
-	.contact-position{
+
+	.contact-position {
 		position: relative;
 		left: 8vw;
 		z-index: 1;
-		
+
 	}
-	
-	
-	.personal-statement-position{
-		
+
+	.personal-statement-position {
 		position: relative;
 		top: -100.7vw;
 		left: 20vw;
 		z-index: 2;
 		width: 60vw;
-		
 	}
-	
-	.responsive-font-number{
+
+	.responsive-font-number {
 		font-size: 8vw;
 	}
-	
-	.number-exp-achievements-position{
+
+	.number-exp-achievements-position {
 		position: relative;
 		top: -80vw;
-		
-		
-		
 	}
-	.responsive-font-body{
+
+	.responsive-font-body {
 		font-size: 3vw;
 	}
-	
-	.responsive-font-statement{
+
+	.responsive-font-statement {
 		font-size: 2.3vw;
 		text-shadow: 1px 1px 2px #F1F2DF;
 	}
-	
-	.bio-padding{
+
+	.bio-padding {
 		padding-right: 2vw;
 	}
-	
-	
-	
-	.number-heptagon-bump{
+
+	.number-heptagon-bump {
 		position: relative;
 		top: -18vw
 	}
-	
-	
-	.stat-position-bump{
+
+	.stat-position-bump {
 		position: relative;
 		top: 0vw;
 	}
-	.stat-position-bump-02{
+
+	.stat-position-bump-02 {
 		position: relative;
 		top: 0vw;
 	}
-	
-	.stat-label-bump{
+
+	.stat-label-bump {
 		position: relative;
 		top: -8vw;
 	}
-	
-	
-	
-	
-	.scroll-text-position-01{
+
+	.scroll-text-position-01 {
 		position: relative;
 		top: -85vw;
-		
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.padding-sides{
+
+	.padding-sides {
 		padding-left: 15vw;
 		padding-right: 5vw;
 	}
-	
-	
-	.scroll-text-position{
+
+	.scroll-text-position {
 		position: relative;
 		top: -80vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	
-	.scroll-text-position-02{
+
+	.scroll-text-position-02 {
 		position: relative;
 		top: -83vw;
-		
-		
 		z-index: 2;
-		
-		
 	}
-	
-	
-	
-	.custom-scroll-size{
-		
+
+	.custom-scroll-size {
 		width: 100%;
 		height: 100%;
 	}
-	.custom-scroll-size-02{
-		
+
+	.custom-scroll-size-02 {
 		width: 100%;
 		height: 100%;
 	}
-	
-	.custom-scroll-size-03{
-		
+
+	.custom-scroll-size-03 {
 		width: 100%;
 		height: 100%;
 	}
-	
-	
-	.lfg-passions-projects-img-position{
+
+	.lfg-passions-projects-img-position {
 		position: relative;
 		top: -79vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position-03{
+
+	.scroll-text-position-03 {
 		position: relative;
 		top: -75vw;
-		
 		z-index: 2;
-		
-		
-	}	
-	
-	
-	
-	.keyboard-position{
+	}
+
+	.keyboard-position {
 		position: relative;
 		top: -1vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.spot-1-shift{
+
+	.spot-1-shift {
 		position: relative;
 		top: -45vw;
 	}
-	.spot-2-shift{
+
+	.spot-2-shift {
 		position: relative;
 		top: -22.5vw;
 	}
-	.responsive-font-name{
-		font-size:6vw;
+
+	.responsive-font-name {
+		font-size: 6vw;
 	}
-	
-	.responsive-font-title{
-		font-size:3.3vw;
+
+	.responsive-font-title {
+		font-size: 3.3vw;
 	}
-	
-	.responsive-font-heading{
-		font-size:4vw;
+
+	.responsive-font-heading {
+		font-size: 4vw;
 	}
-	.responsive-font-subheading{
-		font-size:3.6vw;
+
+	.responsive-font-subheading {
+		font-size: 3.6vw;
 	}
-	
-		.scroll-text-position-04{
-			position: relative;
+
+	.scroll-text-position-04 {
+		position: relative;
 		top: -75vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.parchment-image-background{
-	background-color: #8c8c76; /*parchment-bg main color*/
 
-
-	padding: 1vw;
-	
-	
+	.parchment-image-background {
+		background-color: #8c8c76;
+		/*parchment-bg main color*/
+		padding: 1vw;
 	}
 }
 
-
-
-
 /*  good spacing: min 342 max 644*/
 /* Positioning *********/
-@media (max-width: 644px)  {
-	
-	.parchment-bg-position{
+@media (max-width: 644px) {
+
+	.parchment-bg-position {
 		position: relative;
 		top: 0vw;
 		left: 0vw;
@@ -553,266 +427,203 @@
 		width: 97vw;
 		height: 75vw;
 	}
-	
-	
-	
-	.banner-position{
+
+	.banner-position {
 		position: relative;
 		top: -20vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.banner-size{
+
+	.banner-size {
 		height: 46vw;
 		width: 98vw;
 	}
-	
-	.top-info-position{
-		
+
+	.top-info-position {
 		position: relative;
 		top: -115vw;
 		left: 0vw;
 		z-index: 1;
-		
 		height: auto;
-		
 	}
-	
-	
-	.contact-position{
+
+	.contact-position {
 		position: relative;
 		left: 8vw;
 		z-index: 1;
-		
 	}
-	
-	
-	.personal-statement-position{
-		
+
+	.personal-statement-position {
 		position: relative;
 		top: -105.7vw;
 		left: 20vw;
 		z-index: 2;
 		width: 60vw;
-		
 	}
-	
-	.responsive-font-number{
+
+	.responsive-font-number {
 		font-size: 8vw;
 	}
-	
-	.number-exp-achievements-position{
+
+	.number-exp-achievements-position {
 		position: relative;
 		top: -80vw;
-		
-		
-		
 	}
-	.responsive-font-body{
+
+	.responsive-font-body {
 		font-size: 3vw;
 	}
-	
-	.responsive-font-statement{
+
+	.responsive-font-statement {
 		font-size: 2.3vw;
 		text-shadow: 1px 1px 2px #F1F2DF;
 	}
-	
-	.bio-padding{
+
+	.bio-padding {
 		padding-right: 5vw;
 		position: relative;
 		top: -2vw;
 	}
-	
-	
-	
-	.number-heptagon-bump{
+
+	.number-heptagon-bump {
 		position: relative;
 		top: -18vw
 	}
-	
-	
-	.stat-position-bump{
+
+	.stat-position-bump {
 		position: relative;
 		top: 0vw;
 	}
-	.stat-position-bump-02{
+
+	.stat-position-bump-02 {
 		position: relative;
 		top: 0vw;
 	}
-	
-	.stat-label-bump{
+
+	.stat-label-bump {
 		position: relative;
 		top: -8vw;
 	}
-	
-	
-	
-	
-	.scroll-text-position-01{
+
+	.scroll-text-position-01 {
 		position: relative;
 		top: -83vw;
-		
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.padding-sides{
+
+	.padding-sides {
 		padding-left: 15vw;
 		padding-right: 5vw;
 	}
-	
-	
-	.scroll-text-position{
+
+	.scroll-text-position {
 		position: relative;
 		top: -80vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	
-	.scroll-text-position-02{
+
+	.scroll-text-position-02 {
 		position: relative;
 		top: -83vw;
-		
-		
 		z-index: 2;
-		
-		
 	}
-	
-	
-	
-	.custom-scroll-size{
-		
+
+	.custom-scroll-size {
 		width: 100%;
 		height: 100%;
 	}
-	.custom-scroll-size-02{
-		
+
+	.custom-scroll-size-02 {
 		width: 100%;
 		height: 100%;
 	}
-	
-	.custom-scroll-size-03{
-		
+
+	.custom-scroll-size-03 {
 		width: 100%;
 		height: 100%;
 	}
-	
-	.lfg-passions-projects-img-position{
+
+	.lfg-passions-projects-img-position {
 		position: relative;
 		top: -79vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.scroll-text-position-03{
+
+	.scroll-text-position-03 {
 		position: relative;
 		top: -75vw;
-		
 		z-index: 2;
-		
-		
-	}	
-	
-	
-	
-	.keyboard-position{
+	}
+
+	.keyboard-position {
 		position: relative;
 		top: -1vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.spot-1-shift{
+
+	.spot-1-shift {
 		position: relative;
 		top: -45vw;
 	}
-	.spot-2-shift{
+
+	.spot-2-shift {
 		position: relative;
 		top: -22.5vw;
 	}
-	.responsive-font-name{
-		font-size:6vw;
+
+	.responsive-font-name {
+		font-size: 6vw;
 	}
-	
-	.responsive-font-title{
-		font-size:3.3vw;
+
+	.responsive-font-title {
+		font-size: 3.3vw;
 	}
-	
-	.responsive-font-heading{
-		font-size:4vw;
+
+	.responsive-font-heading {
+		font-size: 4vw;
 	}
-	.responsive-font-subheading{
-		font-size:3.6vw;
+
+	.responsive-font-subheading {
+		font-size: 3.6vw;
 	}
-	
-		.scroll-text-position-04{
-			position: relative;
+
+	.scroll-text-position-04 {
+		position: relative;
 		top: -75vw;
-		
 		z-index: 2;
-		
-		
 	}
-	
-	.parchment-image-background{
-	background-color: #8c8c76; /*parchment-bg main color*/
 
-
-	padding: 1vw;
-	
-	
+	.parchment-image-background {
+		background-color: #8c8c76;
+		/*parchment-bg main color*/
+		padding: 1vw;
 	}
 }
 
-
-
-
 /* Custom look *****************/
-.img-custom-square{
+.img-custom-square {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #000000;
 	border-radius: 20%;
 }
 
-
-
-.custom-drop-shadow{
+.custom-drop-shadow {
 	/*drop-shadow(offset-x offset-y blur-radius color)*/
 	filter: drop-shadow(0px 4px 6px #121212);
-	
-	
 }
 
-.custom-link-appearance{
+.custom-link-appearance {
 	color: #254D3D;
 	overflow-wrap: anywhere;
 }
-.custom-link-appearance:hover{
-	
-	
-	
+
+.custom-link-appearance:hover {
 	background-image: linear-gradient(to left, #8F321A, #222034);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-
-.top-float-position{
+.top-float-position {
 	z-index: 999;
-}	
-
-
+}
