@@ -212,12 +212,13 @@
 	}
 	.keyboard-position{
 		position: relative;
-		top: -5vw;
+		top: -19vw;
 		
 		z-index: 2;
 		
 		
 	}
+	
 	
 	.image-row-position{
 		position: absolute;
@@ -260,12 +261,17 @@
 	.custom-scroll-size{
 		
 		width: 100%;
-		height: 150%;
+		height: 10%;
 	}
 	.custom-scroll-size-02{
 		
 		width: 100%;
 		height: 160%;
+	}
+	.custom-scroll-size-03{
+		
+		width: 100%;
+		height: 115%;
 	}
 	
 	
@@ -454,6 +460,11 @@
 		height: 100%;
 	}
 	
+	.custom-scroll-size-03{
+		
+		width: 100%;
+		height: 100%;
+	}
 	
 	
 	.lfg-passions-projects-img-position{
@@ -689,7 +700,11 @@
 		height: 100%;
 	}
 	
-	
+	.custom-scroll-size-03{
+		
+		width: 100%;
+		height: 100%;
+	}
 	
 	.lfg-passions-projects-img-position{
 		position: relative;
